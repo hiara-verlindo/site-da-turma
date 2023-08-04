@@ -1,4 +1,22 @@
-header{
+{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecario {
     background-color: rgb(59, 160, 243);
     color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecario-imagem{
+    width: 20%;
+}
+
+.cabecario-lista-item{
+    display: inline-block;
+    margin: 0 16;
 }
